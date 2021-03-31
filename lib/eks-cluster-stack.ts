@@ -1,6 +1,6 @@
 import * as cdk from '@aws-cdk/core';
 import { Cluster, KubernetesVersion,  } from '@aws-cdk/aws-eks';
-// import { InstanceType, InstanceClass, InstanceSize  } from '@aws-cdk/aws-ec2';
+import { InstanceType, InstanceClass, InstanceSize  } from '@aws-cdk/aws-ec2';
 
 export class EksClusterStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
