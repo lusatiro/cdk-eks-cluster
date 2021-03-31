@@ -5,7 +5,7 @@
 Configure profile
 
 ```
-aws configure --profile zorilla
+aws configure --profile [profile]
 ```
 
 Install CDK globally
@@ -20,11 +20,10 @@ Create a new project
 cdk init --language typescript
 ```
 
-// Read more about it
 Bootstrap resources need 
 
 ```
-cdk bootstrap --profile zorilla
+cdk bootstrap --profile [profile]
 ```
 
 To see problems with you definitions
@@ -35,18 +34,18 @@ cdk ls
 Deploy cluster
 
 ```
-cdk deploy --profile zorilla
+cdk deploy --profile [profile]
 ```
 
 Switch the context to use kubectl
 
 ```
-aws eks update-kubeconfig [output from deploy] --profile zorilla
+aws eks update-kubeconfig [output from deploy] --profile [profile]
 ```
 
 
 Destroy cluster
 
 ```
-cdk destroy --profile zorilla
+cdk destroy --profile [profile]
 ```
