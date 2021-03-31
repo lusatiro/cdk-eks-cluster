@@ -20,7 +20,6 @@ Create a new project
 cdk init --language typescript
 ```
 
-// Read more about it
 Bootstrap resources need 
 
 ```
