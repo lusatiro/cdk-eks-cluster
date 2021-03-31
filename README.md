@@ -37,7 +37,7 @@ Deploy cluster
 cdk deploy --profile [profile]
 ```
 
-Switch the context to use kubectl
+Switch the context to use kubectl to send commands to the cluster
 
 ```
 aws eks update-kubeconfig [output from deploy] --profile [profile]
