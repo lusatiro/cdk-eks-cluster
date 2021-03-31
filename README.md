@@ -20,7 +20,7 @@ Create a new project
 cdk init --language typescript
 ```
 
-Bootstrap resources need 
+Bootstrap resources needed
 
 ```
 cdk bootstrap --profile [profile]
